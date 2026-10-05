@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.parthasingharoy.npulab
+productName: NPU Learning Lab
+files:
+  - filter:
+      - dist/**
+      - electron/main.cjs
+      - package.json
+win:
+  target: portable
+  icon: build/icon.ico
+electronVersion: 44.5.1
